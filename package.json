@@ -1,0 +1,19 @@
+{
+  "name": "rick-and-morty",
+  "version": "1.0.0",
+  "description": "Rick & Morty API, Postgres",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "rick and morty api"
+  ],
+  "author": "Artyom Eremchuk",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.12.0",
+    "uuid": "^10.0.0"
+  }
+}
